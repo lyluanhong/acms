@@ -36,12 +36,15 @@ Spring Cloud ACM 也支持 Spring Cloud 的 [Refresh Scope](http://cloud.spring.
 @RequestMapping("/sample")
 @RefreshScope
 class SampleController {
+
     @Value("${user.name}")
     String userName;
+    
     @RequestMapping("/acm")
     public String simple() {
         return "Hello Spring Cloud ACM!" + " Hello " + userName + "!";
     }
+
 }
 ```
 
