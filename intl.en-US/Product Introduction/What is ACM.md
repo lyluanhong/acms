@@ -10,13 +10,13 @@ ACM serves as the configuration center in a distributed system. It offers a seri
 
 In the traditional architecture, for any configuration changes, you often need to log on the specific server and manually modify the configurations for them to take effect, as shown in the following figure.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_mgmt_traditional.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_mgmt_traditional_en.png)
 
 ## Configuration management with ACM {#section_apk_bhv_m2b .section}
 
 With ACM, you only need to change the configuration in ACM console and the configuration information is automatically pushed to each server and takes effect with a latency of mere seconds. ACM mainly consists of three components: the client, the server, and the console for configuration management.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_mgmt_acm.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_mgmt_acm_en.png)
 
 ## Why ACM {#section_cpk_bhv_m2b .section}
 
