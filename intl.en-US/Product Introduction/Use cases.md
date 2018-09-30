@@ -8,11 +8,11 @@ Under the microservice architecture, configuration management \(such as DB\_URL 
 
 In traditional architecture, the entire application must be re-packaged and published again even though only one configuration item is modified. This process is complex and error-prone, as shown in the following figure.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_update_traditional.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_update_traditional_en.png)
 
 In an ACM-based microservice scenario, important application configuration information is published to ACM.  The release of new configurations does not require configuration packaging.  The applications take effect immediately after the new configurations are released, as shown in the following figure.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_update_acm.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_config_update_acm_en.png)
 
 The use of ACM as a configuration center brings microservices the following benefits:
 
@@ -28,7 +28,7 @@ Take request throttling and service degradation as an example. During Alibaba’
 
 In this process, the server of each RPC listens for the service rate limiting information by registering listeners through ACM.  When an application requires rate throttling, the administrator performs request control in the service governance console. Then, the service governance system pushes the throttling information through ACM to the target application server to enable the corresponding configuration to take appropriate throttling action.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_service_governance.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_service_governance_en.png)
 
 ACM brings the following benefits to service governance under distributed architectures:
 
@@ -42,7 +42,7 @@ Other typical use cases of ACM include speeding up the rollout of web pages in m
 
 Take e-commerce operations as an example.  By embedding the ACM configuration \(such as the third-party library version number and the static resource URL\) in the frontend Javascript, operation staff can modify ACM configuration rules using operation tools to bring frontend Javascript presentation into effect when running promotional activities.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_dynamic_push.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_dynamic_push_en.png)
 
 ACM brings the following benefit to configuration push in business scenarios:
 
@@ -54,7 +54,7 @@ In real-time big data computing, calculation parameters are adjusted dynamically
 
 Take an APM monitoring system in Alibaba as an example.  The monitoring system dynamically adjusts the threshold values of businesses to control the real-time computing system and create business alarms. The threshold value modification must be completed in real time without application downtime.  The calculated threshold values of the monitoring system are pushed under ACM rules.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_big_data_update.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_big_data_update_en.png)
 
 ACM brings the following benefit to real-time big data computing scenarios:
 
@@ -66,7 +66,7 @@ Multi-Site High Availability solution is an advanced disaster recovery architect
 
 At Alibaba, the core algorithms, ID shards and relevant routing rules of the Multi-Site High Availability architecture are all pushed by ACM dynamically. The related clients and servers, such as RPC, MQ, and DB are embedded with the routing path.  During a disaster recovery drill test or when a real disaster occurs, the administrator only needs to dynamically push the rules, and these rules will have an affect on every architecture component.  This is shown in the following figure.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_msha.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_msha_en.png)
 
 The use of ACM brings the applications in the remote Multi-Site High Availability architecture the following benefits:
 
