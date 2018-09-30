@@ -6,11 +6,11 @@ This document compares several mainstream application configuration management p
 
 -   ZooKeeper
 
-    [ZooKeeper](https://zookeeper.apache.org/) is an open-source implementation of Google Chubby, which provides distributed application coordination service.  ZooKeeper provides consistency management services for distributed applications, including configuration maintenance, domain name services, distributed synchronization, group services, and so on. In scenarios such as a Hadoop cluster, ZooKeeper also performs application configuration management.  However, as a CP \(Consistency, Partition Tolerance\) application, its availability and performance can be affected.
+    [ZooKeeper](https://zookeeper.apache.org/) is an open-source implementation of Google Chubby, which provides distributed application coordination service. ZooKeeper provides consistency management services for distributed applications, including configuration maintenance, domain name services, distributed synchronization, group services, and so on. In scenarios such as a Hadoop cluster, ZooKeeper also performs application configuration management.  However, as a CP \(Consistency, Partition Tolerance\) application, its availability and performance can be affected.
 
 -   etcd
 
-    Like ZooKeeper,[etcd](https://github.com/coreos/etcd)  is a key value storage system with high availability feature. It is designed for configuration sharing and service discovery.  edcd is developed and maintained by CoreOS, inspired by ZooKeeper and Doozer.  It is written in Go and processes log replication using the Raft consistency algorithm to ensure strong consistency. Similar to ZooKeeper, etcd can also be used for application configuration management.  However, as a management application aimed to ensure strong consistency, its availability and performance can be compromised in some scenarios.
+    Like ZooKeeper, [etcd](https://github.com/coreos/etcd) is a key value storage system with high availability designed for configuration sharing and service discovery. edcd is developed and maintained by CoreOS, inspired by ZooKeeper and Doozer.  It is written in Go and processes log replication using the Raft consistency algorithm to ensure strong consistency. Similar to ZooKeeper, etcd can also be used for application configuration management.  However, as a management application aimed to ensure strong consistency, its availability and performance can be compromised in some scenarios.
 
 -   Spring Cloud Config Server
 
