@@ -8,7 +8,7 @@
 
 ```
 <dependency>
-    <groupId>com.alibaba.boot</groupId>
+    <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
     <version>${latest.version}</version>
 </dependency>
