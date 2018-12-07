@@ -1,6 +1,6 @@
 # 搭建 ACM 本地测试环境 {#concept_em5_mx5_42b .concept}
 
-ACM 包提供了本地测试 ACM-SDK 的能力，应用无需连上远程 ACM 即可在本地获取配置进行测试。
+ACM 包提供了本地测试 ACM-SDK 的能力，您的应用无需连上远程 ACM 即可在本地获取配置进行测试。您在搭建本地测试环境时仍可以在互联网中访问公网 Region，但其它 Region 只能在同地域的 ECS 上才能访问，如 ACM 的上海 Region，只能在上海的 ECS 上访问。
 
 目前 ACM 包支持 Mac、Linux 和 Windows 平台，JDK 1.8 及以上版本。ACM 本地包和 ACM 官网的功能对比如下。
 
