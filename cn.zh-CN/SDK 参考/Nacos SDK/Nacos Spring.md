@@ -28,7 +28,7 @@
     }
     ```
 
-2.  通过 Spring 的 `@Value` 注解设置属性值。
+2.  通过 Nacos 的 `@NacosValue` 注解设置属性值。
 
     ```
     @Controller
