@@ -35,7 +35,7 @@ ACM provides encrypted configuration to meet the requirement for sensitive confi
 1.  Log on to the .
 2.  In the **Actions** column on the right side of the table, click **Code Example** to get sample code.
 
-    **Note:** Java SDK and Python SDK has incorporated KMS-SDK, so you can add decryption filters for automatic decryption. For more information about decryption of other languages, see [Decrypt](https://help.aliyun.com/document_detail/28950.html).
+    **Note:** Java SDK and Python SDK has incorporated KMS-SDK, so you can add decryption filters for automatic decryption. For more information about decryption of other languages, see [Decrypt](https://www.alibabacloud.com/help/zh/doc-detail/28950.html).
 
 3.  Click **Details** above the Search button, and click **Obtain Now** in the Namespace Details dialog box to obtain the initialization parameters.
 
