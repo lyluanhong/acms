@@ -1,15 +1,17 @@
 # Prerequisites {#concept_kf1_vsw_42b .concept}
 
+spring-cloud-starter-acm won't be maintained any more. Therefore, we recommend that you use [spring-cloud-starter-alibaba-nacos-config](reseller.en-US//Nacos Spring Cloud.md#) from Nacos instead.
+
 ## Steps for using the Spring Cloud ACM SDK are as follows. {#section_cz2_xsw_42b .section}
 
 1.  Add Maven dependency.
 
     ```
-    &lt;dependency>
-         &lt;groupId>com.alibaba.cloud&lt;/groupId>
-         &lt;artifactId>spring-cloud-starter-acm&lt;/artifactId>
-         &lt;version>1.0.7&lt;/version>
-     &lt;/dependency>
+    <dependency>
+         <groupId>com.alibaba.cloud</groupId>
+         <artifactId>spring-cloud-starter-acm</artifactId>
+         <version>1.0.8</version>
+     </dependency>
     
     ```
 
@@ -24,7 +26,7 @@
 
 3.  Configure the ACM environment and authentication information.
 
-    Configure `application.properties`  in Spring Boot, and configure `alibaba.acm.endpoint`, `alibaba.acm.namespace`, `alibaba.acm.accessKey`, and `alibaba.acm.secretKey`:
+    Edit the `application.properties` file in Spring Boot, and configure `alibaba.acm.endpoint`、`alibaba.acm.namespace`、`alibaba.acm.accessKey` 和 `alibaba.acm.secretKey`：
 
     ```
     spring.application.group=com.alibaba.cloud.acm
@@ -34,7 +36,7 @@
     # Namespace ID
     alibaba.acm.namespace=xxx
     
-     # Access ACM with instance RAM role
+    # Access ACM with instance RAM role
     # alibaba.acm.ramRoleName=xxx
     
     alibaba.acm.accessKey=xxx
@@ -47,6 +49,10 @@
     
     # If group is not DEFAULT_GROUP, then set alibaba.acm.group manually.
     # alibaba.acm.group=xxx
+    
+    # Options include properties, yaml, and yml, where properties is the default (only version 1.0.8 and above)
+    #alibaba.acm.file-extension=properties
+    
     ```
 
 4.  Add application configuration in the ACM console.
@@ -55,11 +61,11 @@
 
     -   Write the Data ID in the following format:
 
-        `${spring.application.group}:${spring.application.name}.properties`
+        `${spring.application.group}:${spring.application.name}.{alibaba.acm.file-extension}`
 
         For example: `com.alibaba.cloud.acm:sample-app.properties`
 
-    -   Select `TEXT` as the configuration format, and enter the key-value pairs to be injected into the application:
+    -   Select `Properties` for the configuration format, and put the specific key-value pairs in the configuration body:
 
         ```
         user.id = 001
@@ -70,11 +76,12 @@
 
 ## Notes {#section_gbv_jtw_42b .section}
 
--   `spring-cloud-starter-acm 1.0.7`  and higher version now supports `Spring Boot 2.x`.
--   `We recommend that you use Spring Boot 2.x of 2.0.1.RELEASE` and higher version. `` `2..0.0. RELEASE` version has a known bug of [reading old data](https://github.com/spring-projects/spring-boot/issues/12451).
+-   `spring-cloud-starter-acm 1.0.7` and higher version now supports `Spring Boot 2.x`.
+-   `spring-cloud-starter-acm 1.0.8` and higher version now supports `YAML`.
+-   We recommend that you use `2.0.1. RELEASE` and higher version of `Spring Boot 2.x`. `2.0.0. RELEASE` has [a bug that prevents it from reading old data](https://github.com/spring-projects/spring-boot/issues/12451).
 -   To download the complete sample code, click: [spring-cloud-acm-sample.zip](https://acm-public.oss-cn-hangzhou.aliyuncs.com/sample/spring-cloud-acm-sample.zip).
 
 ## Related documents { .section}
 
--   [Access ACM with instance RAM role](../../../../reseller.en-US/User Guide/Access ACM with instance RAM role.md#)
+-   [Access ACM with instance RAM role](../../../../../reseller.en-US/User Guide/Access ACM with instance RAM role.md#)
 
