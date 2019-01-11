@@ -18,16 +18,16 @@ Description of RAM sub-accounts:
 
     **Note:** The login name must be unique within the primary account.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_db_create_user.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_db_create_user_en.png)
 
 3.  Click the user's **User Name/Display Name**. The User Details page is displayed.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_bt_enable_console_logon.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_bt_enable_console_logon_en.png)
 
 4.  In the **Web Console Logon Management** section, click **Enable Console Logon**.
 5.  In the password setting dialog box, enter a **New Password** and **Confirm Password**, select the check box **"On your next logon you must reset the password."** as needed, and then click **OK**.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_db_enable_console_logon.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_db_enable_console_logon_en.png)
 
 
 So far, a RAM user that can log on to the console is created.
@@ -37,15 +37,15 @@ So far, a RAM user that can log on to the console is created.
 1.  Log on to the [RAM console](https://ram.console.aliyun.com/), and in the left-side navigation pane, click **Dashboard**.
 2.  Click the **RAM User Logon Link**. The Sub-account Logon page is displayed.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_sc_ram_user_login.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_sc_ram_user_login_en.png)
 
     **Note:** The RAM user's logon link varies with the primary account.
 
 3.  Enter information as prompted on the page, and enter the RAM console of the RAM sub-account.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_ram_user_login.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_ram_user_login_en.png)
 
-4.  In the RAM console, navigate to the **Products & Services** section, and in the Middleware area, click **Application Configuration Management** to enter the ACM console.![](http://acm-public.oss-cn-hangzhou.aliyuncs.com/userGuide/consoleEntrance.png)
+4.  In the RAM console, navigate to the **Products & Services** section, and in the Middleware area, click **Application Configuration Management** to enter the ACM console.![](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_ram_console_product_acm_en.png)
 
 ## Authorize a RAM sub-account {#section_srx_fwt_42b .section}
 
@@ -56,11 +56,11 @@ Here are the steps to authorize a RAM sub-account:
 1.  Log on to the [RAM console](https://ram.console.aliyun.com/), and click **Users** in the left-side navigation pane.
 2.  On the Users Management page, select a user to be authorized, and in the **Actions** column on the right side of the user, click **Authorize**.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_users.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_users_en.png)
 
 3.  In the search box of the Edit User-Level Authorization dialog box, enter ACM, select **AliyunACMFullAccess** to add it to the **Selected Authorization Policy Name** on the right, and then click **OK** to grant this sub-account all access to ACM. In addition, to use the [encryption and decryption](reseller.en-US/User Guide/Create and use encrypted configuration.md#) functions of ACM, also add the **AliyunKMSCryptoAccess** authorization policy.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_edit_role_authorization_policy.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_edit_role_authorization_policy_en.png)
 
     After the authorization is complete, the sub-account can log on to the ACM console.
 
@@ -80,6 +80,6 @@ Once deauthorized, the RAM sub-account cannot log on to the ACM console.
 1.  Log on to the [RAM console](https://ram.console.aliyun.com/#/overview), and in the left-side navigation pane, click **Users**.
 2.  On the Users Management page, select a user to be unbound, and in the **Actions** column on the right side of the user, click **Delete**.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_users.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_users_en.png)
 
 
