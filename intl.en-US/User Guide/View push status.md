@@ -6,11 +6,11 @@ After changing a configuration, you might want to check whether the changed conf
 2.  In the left-side navigation pane of the console, select **Configurations**, enter the **DataID** or **Group** of the configuration to be queried, and then click **Search**. Matching results appear in the list.
 3.  In the search results, select **More** \> **Configuration Listening Query** on the right side of the target configuration. 
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_historical_versions.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_historical_versions_en.png)
 
     The Listening Query page is displayed.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_listening_query.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_listening_query_en.png)
 
 4.  Enter the **Dimension**, **DataID**, or **Group** on the page, and then click **Search**. 
 
