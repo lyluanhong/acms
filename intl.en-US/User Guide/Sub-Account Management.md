@@ -45,7 +45,10 @@ So far, a RAM user that can log on to the console is created.
 
     ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/common/ram_pg_ram_user_login_en.png)
 
-4.  In the RAM console, navigate to the **Products & Services** section, and in the Middleware area, click **Application Configuration Management** to enter the ACM console.![](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_ram_console_product_acm_en.png)
+4.  In the RAM console, navigate to the **Products & Services** section, and in the Middleware area, click **Application Configuration Management** to enter the ACM console.
+
+    ![](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_ram_console_product_acm_en.png) 
+
 
 ## Authorize a RAM sub-account {#section_srx_fwt_42b .section}
 
