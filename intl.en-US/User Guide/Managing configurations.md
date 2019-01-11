@@ -12,20 +12,20 @@ To search for a configuration, follow these steps:
 2.  Select **Configurations** in the left-side navigation pane of the console. Enter the information you want to search for, and click the **Search** button.
 3.  After the target configuration is found, you can view the details of the configuration, or change or delete the configuration, as shown in the following figure.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/sc_actions.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/sc_actions_en.png)
 
 
 ## View configuration details {#section_yy4_lkt_42b .section}
 
 Click **Details** in the search results to view detailed information about a specific configuration.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_config_details.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_config_details_en.png)
 
 ## Edit configurations {#section_az4_lkt_42b .section}
 
 In the search result, click **Edit** to go to the editing page.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_edit_config.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_edit_config_en.png)
 
 ACM offers the following advanced features on the configuration editing page.
 
