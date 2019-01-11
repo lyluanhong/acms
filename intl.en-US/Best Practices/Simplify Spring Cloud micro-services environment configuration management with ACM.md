@@ -27,7 +27,7 @@ Taking Movie Service as an example. Let's assume that we need to retrieve a list
 
 The following figure shows how to map different environments with ACM Namespace, and set different data source configurations for Movie Service in different running environments.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_acm_dev_stage_prod.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_acm_dev_stage_prod_en.png)
 
 ## Create micro-service: movie service {#section_fbf_fyc_p2b .section}
 
@@ -102,11 +102,11 @@ The following figure shows how to map different environments with ACM Namespace,
 
 -   Create three environments in ACM: dev, stage, and prod
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_namespace_dev_stage_prod.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_namespace_dev_stage_prod_en.png)
 
 -   Create configuration respectively for dev, stage, and prod environments
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_configuration_dev_stage_prod.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_configuration_dev_stage_prod_en.png)
 
 
 In the previous step, we set different values for the same configuration item in different environments. Taking the `spring.datasource.url` configuration item as an example, we connect different databases to different environments by setting different URLs, and only enables SSL \(useSSL=true\) in the production environment.
@@ -166,7 +166,7 @@ Next, we integrate Movie Service with ACM to obtain the corresponding environmen
 
 You can find your namespace\_id, accessKey, secretKey, and other information in “namespace details” or “code example of configuration”.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/db_namespace_details.png)
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/db_namespace_details_en.png)
 
 ## Access Movie Service from your browser {#section_zrx_rsc_p2b .section}
 
