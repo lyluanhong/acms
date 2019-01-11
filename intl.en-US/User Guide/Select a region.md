@@ -7,6 +7,6 @@ The machines you purchase can be distributed in different regions, so you have t
 1.  Log on to the .
 2.  In the top navigation bar, hover the mouse over , and select the desired region in the overlay.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/sc_region.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/sc_region_en.png)
 
 
