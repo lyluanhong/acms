@@ -125,7 +125,7 @@ In practice, the second method is found not only to have greater flexibility, mu
 
 Configuration structure diagram of the preceding design is shown as follows:
 
-![Diagram - ACM-MQ Scheme](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_acm_mq_scheme.png)
+![Diagram - ACM-MQ Scheme](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_acm_mq_scheme_en.png)
 
 5. Advantages of the scheme
 
@@ -135,7 +135,7 @@ Configuration structure diagram of the preceding design is shown as follows:
 
 -   Standard naming settings of the minimal configuration set DataIDs allow MQ clients to conveniently find both the MQ default global configurations, and their own application-specific configurations. In addition, on the Configurations page, administrators can add an asterisk \(\*\) to each end of the keyword to easily filter out all MQ rules. For example:
 
-    ![Example - Configuration Page - Fuzzy Search](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_pg_config_list_fuzzy_search.png)
+    ![Example - Configuration Page - Fuzzy Search](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_pg_config_list_fuzzy_search_en.png)
 
 
 ## References {#section_dk1_zkc_p2b .section}
