@@ -11,7 +11,7 @@ If an application is deployed on multiple servers, once you need to change the c
 
 The business application myapp.jar is deployed to two servers in the production environment. This application has a configuration file app.cfg, which contains two configuration items: threadPoolSize and logLevel. Now, you need to adjust the configuration of the application on these two servers simultaneously and refresh the status of the application dynamically. The scenario is shown in the following figure:
 
-![](http://acm-public.oss-cn-hangzhou.aliyuncs.com/quick_start_pic1.png) 
+![](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/dg_dynamic_config_update_with_acm_en.png) 
 
 The configuration body:
 
@@ -28,7 +28,7 @@ In this example, first we create a configuration for the application myapp on AC
 1.  Log on to the .
 2.  In the left-side navigation pane, select **Configurations**, and then click the **+** button in the upper-right corner.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_create_configuration.png) 
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_create_configuration_en.png) 
 
 3.  Enter the following data on the Create Configuration page, and click **Publish**.
 
@@ -43,7 +43,7 @@ In this example, first we create a configuration for the application myapp on AC
 
     See the figure below:
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_pg_create_config_myapp.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_pg_create_config_myapp_en.png)
 
 
 ## Step 2: Use the API to listen for configuration changes {#section_jt3_cgt_42b .section}
@@ -128,7 +128,7 @@ In this example, first we create a configuration for the application myapp on AC
 
     **Note:** The user variables in the following code, such as $endpoint, $namespace, and $accesskey can be found on the Namespace page of the ACM console, as shown in the following figure.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_db_namespace_details.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_db_namespace_details_en.png)
 
     ```
     //-- App.java
@@ -237,7 +237,7 @@ In this example, first we create a configuration for the application myapp on AC
 
 4.  In the Content Comparison dialog box, verify that the configuration changes are correct, and click**Publish**.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/db_content_comparison.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/db_content_comparison_en.png)
 
 
 ## Verify the result {#section_fv5_qft_42b .section}
