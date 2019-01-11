@@ -6,11 +6,11 @@ After changing a configuration, you can check whether the configuration has been
 2.  Select **Configurations** in the left-side navigation pane of the console. Enter the information you want to search for, and click the **Search**  button. The matching search results appear in the list.
 3.  Click **More**and select **Push Track** in the dropdown list. 
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_historical_versions.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/bt_historical_versions_en.png)
 
     The Push Track page is displayed.
 
-    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_push_tracks.png)
+    ![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/pg_push_tracks_en.png)
 
 4.  Enter the **Dimension**, **Data ID**, **Group**, and **Time Range**, and click **Search**. 
 
