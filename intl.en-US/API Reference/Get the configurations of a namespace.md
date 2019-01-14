@@ -1,8 +1,8 @@
 # Get the configurations of a namespace {#concept_abb_3dv_42b .concept}
 
-##  Description {#section_zdg_5cv_42b .section}
+## Description {#section_zdg_5cv_42b .section}
 
-Get the configurations of a namespace on ACM.
+Get the configurations within a namespace from ACM.
 
 ## Request Type {#section_a2g_5cv_42b .section}
 
@@ -14,38 +14,39 @@ GET
 
 ## Request parameters {#section_f2y_wcv_42b .section}
 
-|Name |Type|Required|Description|
-|-----|----|--------|-----------|
-|tenant|string|Yes|The tenant, corresponding to the namespace field of ACM|
+|Name|Type|Required|Description|
+|----|----|--------|-----------|
+|tenant|String|Yes|The tenant, corresponding to the namespace field of ACM|
 |pageNo|int|Yes|Page number|
 |pageSize|int|Yes|Page size|
 
 ## Header parameters {#section_m34_xcv_42b .section}
 
-|名称|类型|是否必须|描述|
-|--|--|----|--|
-|Spas-AccessKey|string|是|accessKey 从 ACM 控制台获取。|
-|timeStamp|string|是|请求时间毫秒字符串。|
-|Spas-Signature|string|是|SpasSigner.sign\( Tenant+ group+ timeStamp, secretKey\) // 用秘钥对“租户+分组+时间戳”进行签名，签名算法为 HmacSHA1。加时间戳签名防止重放攻击，该签名有效期 60 秒。|
+|Name|Type|Required|Description|
+|----|----|--------|-----------|
+|Spas-AccessKey|String|Yes|The accessKey can be found in the ACM console.|
+|timeStamp|String|Yes|The request time in milliseconds|
+|Spas-Signature|String|Yes|SpasSigner.sign \(Tenant+ group+ timeStamp, secretKey\) // Sign "tenant + group + timestamp" with secret key. The signature algorithm is HmacSHA1. The timestamp signature prevents replay attacks. The signature is valid for 60 seconds.|
+|Spas-SecurityToken|String|No|SecurityToken is obtained from STS temporary credential. STS temporary credential is obtained from instance metadata URL.|
 
 ## Response parameters {#section_n3m_ycv_42b .section}
 
-|Parameter type|Description|
+|Parameter Type|Description|
 |--------------|-----------|
-|totalCount |The total number of configurations|
+|totalCount|The total number of configurations|
 |pageNumber|Page number|
 |pagesAvailable|The number of available pages|
 |pageItems|Configuration items|
 
-## 错误编码 {#section_amp_4tv_42b .section}
+## Error code {#sc_error_code .section}
 
-|错误代码|描述|语义|
-|----|--|--|
-|400|Bad Request|客户端请求中的语法错误|
-|403|Forbidden|没有权限|
-|404|Not Found|客户端错误，未找到|
-|500|Internal Server Error|服务器内部错误|
-|200|OK|正常|
+|Error code|Description|Explanation|
+|----------|-----------|-----------|
+|400|Bad Request|Syntax error in client request|
+|403|Forbidden|No permission|
+|404|Not Found|Client error, not found|
+|500|Internal Server Error|Internal errors of the server|
+|200|OK|Normal|
 
 ## Examples {#section_jyd_1dv_42b .section}
 
