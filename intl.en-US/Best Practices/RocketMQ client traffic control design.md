@@ -45,7 +45,7 @@ This section provides the example code of dynamic global traffic control for asy
 
 Create consumption delay parameters on ACM.
 
-![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_configuration_rcv_interval.png) 
+![](http://aliware-images.oss-cn-hangzhou.aliyuncs.com/acms/ex_configuration_rcv_interval_en.png) 
 
 ## Set global consumption delay variable {#section_hdr_2kc_p2b .section}
 
