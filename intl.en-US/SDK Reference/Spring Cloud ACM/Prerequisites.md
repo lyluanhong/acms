@@ -1,6 +1,6 @@
 # Prerequisites {#concept_kf1_vsw_42b .concept}
 
-spring-cloud-starter-acm won't be maintained any more. Therefore, we recommend that you use [spring-cloud-starter-alibaba-nacos-config](reseller.en-US//Nacos Spring Cloud.md#) from Nacos instead.
+spring-cloud-starter-acm won't be maintained any more. Therefore, we recommend that you use [spring-cloud-starter-alibaba-nacos-config](reseller.en-US/SDK Reference/Nacos SDK/Nacos Spring Cloud.md#) from Nacos instead.
 
 ## Steps for using the Spring Cloud ACM SDK are as follows. {#section_cz2_xsw_42b .section}
 
@@ -26,7 +26,7 @@ spring-cloud-starter-acm won't be maintained any more. Therefore, we recommend t
 
 3.  Configure the ACM environment and authentication information.
 
-    Edit the `application.properties` file in Spring Boot, and configure `alibaba.acm.endpoint`、`alibaba.acm.namespace`、`alibaba.acm.accessKey` 和 `alibaba.acm.secretKey`：
+    Edit the `application.properties` file in Spring Boot, and configure `alibaba.acm.endpoint`, `alibaba.acm.namespace`, `alibaba.acm.accessKey`, and `alibaba.acm.secretKey`:
 
     ```
     spring.application.group=com.alibaba.cloud.acm
